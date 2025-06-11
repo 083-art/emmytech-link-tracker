@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   console.log(`[TRACKED] Referral from: ${ref} at ${new Date().toISOString()}`);
 
   // Replace with your actual ION affiliate link
-  const redirectURL = "https://your-ion-affiliate-link.com";
+  const redirectURL = "https://www.linkedin.com/in/emmanuel-udosen-395767245/";
 
   // Redirect the user
   res.writeHead(302, { Location: redirectURL });
